@@ -99,7 +99,7 @@ for letter in letters:
 
 occurences = []
 for letter in letters:
-	occurances.append(countLetter(tweetstring, letter))
+	occurences.append(countLetter(tweetstring, letter))
 print(occurences)
 print(min(occurences), max(occurences))
 plt.hist(occurences)
