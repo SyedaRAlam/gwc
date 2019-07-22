@@ -79,6 +79,11 @@ wordCountList = []
 for item in texts:
 	wordoccurence = wordCount(item, "the")
 	wordCountList.append(wordoccurence)
+print(wordCountList)
+print(min(wordCountList), max(wordCountList))
+plt.hist(wordCountList)
+plt.axis([min(wordCountList), max(wordCountList),0, 10])
+plt.show()
 
 
 # print(countLetter("A") * 8, a)
@@ -97,14 +102,14 @@ for letter in letters:
 
 
 
-occurences = []
-for letter in letters:
-	occurences.append(countLetter(tweetstring, letter))
-print(occurences)
-print(min(occurences), max(occurences))
-plt.hist(occurences)
-plt.axis([min(occurences), max(occurences),0, 10])
-plt.show()
+# occurences = []
+# for letter in letters:
+# 	occurences.append(countLetter(tweetstring, letter))
+# print(occurences)
+# print(min(occurences), max(occurences))
+# plt.hist(occurences)
+# plt.axis([min(occurences), max(occurences),0, 10])
+# plt.show()
 
 
 wordcloud = wordCloud(height = 1000, width = 1000).generate(tweetstring)
