@@ -1,13 +1,26 @@
-p {
+/* p {
   color : blue;
-  fort-size: 40px
-}
+  fort-size: 40px */
+/* }
 h1 {
   color: blue
-}
+} */
 body {
   background-color: lightblue;
 }
 h3 {
   color : blue
 }
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: blue;
+  font-family: courier;
+  font-size: 160%;
+}
+
+font-family: 'Butcherman', cursive;
+font-family: 'Bonbon', cursive;
