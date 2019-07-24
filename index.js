@@ -37,7 +37,14 @@
 // }
 // console.log(getTemp2("f"))
 // console.log(getTemp2("c"))
-function bobo(){
-  var x = document.getElementById('hi')
-  x.setAttribute("style", font-family: 'Bonbon', cursive;)
-}
+// function bobo(){
+//   var x = document.getElementById('hi')
+//   x.setAttribute("style", font-family: 'Bonbon', cursive;)
+// }
+
+document.getElementById("special font").addEventListener("click",
+  function(){
+    document.getElementById("special font").style.color = "red"
+    console.log("Geto")
+  }
+)
